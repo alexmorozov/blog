@@ -1,5 +1,5 @@
 Title: When you shouldn't use the Django admin
-Date: 2015-11-05 10:20
+Date: 2015-11-03 10:20
 Category: Programming
 Tags: django, python, admin
 

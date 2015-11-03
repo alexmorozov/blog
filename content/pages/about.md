@@ -1,4 +1,4 @@
-Title: About me
+Title: About
 
 <img src="{filename}/images/alex-morozov.jpg" width="50%">
 
