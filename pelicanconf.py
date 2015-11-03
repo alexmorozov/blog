@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Alex Morozov'
 SITENAME = u'CTO with CEO flavour'
-SITEURL = ''
+SITEURL = 'https://alexmorozov.github.io'
 
 SITETITLE = SITENAME
 
@@ -22,8 +22,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-#THEME = 'dist-themes/elegant'
-THEME = 'dist-themes/Flex'
+THEME = 'theme'
+TYPOGRIFY = True
 
 
 # Social widget
@@ -34,8 +34,8 @@ SOCIAL = (
 )
 
 LINKS = (
-    ('About me', '#'),
-    ('Hire me', '#'),
+    #('About me', '#'),
+    #('Hire me', '#'),
 )
 
 DISQUS_SITENAME = 'alexmorozovgithubio'
@@ -44,4 +44,4 @@ GOOGLE_ANALYTICS = 'UA-69605514-1'
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True

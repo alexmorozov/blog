@@ -4,7 +4,7 @@ Category: Programming
 Tags: django, python, admin
 
 
-In case you've thought I detest `django.contrib.admin` &mdash; by no means.
+In case you've thought I detest `django.contrib.admin` -- by no means.
 Actually it's one of the Django's greatest features, I really love it. In most
 cases.
 

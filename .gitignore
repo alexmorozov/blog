@@ -1,3 +1,4 @@
 *.py[co]
-output/
-dist-themes
+/output/
+/theme/
+/node_modules/
