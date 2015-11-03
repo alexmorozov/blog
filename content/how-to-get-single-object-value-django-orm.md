@@ -1,4 +1,4 @@
-Title: How to get a single object`s value with Django ORM
+Title: Tip: How to get a single object`s value with Django ORM
 Date: 2015-11-04 11:20
 Category: Programming
 Tags: django, python, orm
