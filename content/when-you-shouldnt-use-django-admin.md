@@ -41,9 +41,9 @@ While it's perfectly normal for basic sites, more complex setups often need the
 'view' permission, which allows to view a list of, say, tickets, while not
 allowing to edit them.
 
-So one have to decide: whether to lose the changelist functionality, or to
-override the changelist view by copy-pasting 90% of the code. Bad decisions, I
-must say.
+So one is on a fence between two options: either to lose the changelist
+functionality, or to override the changelist view by copy-pasting 90% of the
+code. Bad decisions, I must say.
 
 ### No chance of using generic CBVs
 
