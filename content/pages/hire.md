@@ -1,3 +1,0 @@
-Title: Hire me
-
-Contacts

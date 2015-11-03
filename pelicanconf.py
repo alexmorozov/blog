@@ -5,8 +5,10 @@ from __future__ import unicode_literals
 AUTHOR = u'Alex Morozov'
 SITENAME = u'CTO with CEO flavour'
 SITEURL = 'https://alexmorozov.github.io'
+SITELOGO = 'images/alex-morozov.jpg'
 
 SITETITLE = SITENAME
+SITESUBTITLE = "Alex Morozov's blog"
 
 PATH = 'content'
 
@@ -45,3 +47,4 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+STATIC_PATHS = ['images', ]
