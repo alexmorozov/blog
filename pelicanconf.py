@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Alex Morozov'
 SITENAME = u'CTO with CEO flavour'
 SITEURL = 'https://alexmorozov.github.io'
-SITELOGO = 'images/alex-morozov.jpg'
+SITELOGO = '/images/alex-morozov.jpg'
 
 SITETITLE = SITENAME
 SITESUBTITLE = "Alex Morozov's blog"

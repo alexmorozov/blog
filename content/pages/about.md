@@ -1,6 +1,6 @@
 Title: About me
 
-<img src="images/alex-morozov.jpg">
+<img src="{filename}/images/alex-morozov.jpg" width="50%">
 
 Hi, my name is Alex Morozov, and I'm from Russia. I am 33 years old.
 
