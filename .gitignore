@@ -1,0 +1,3 @@
+*.py[co]
+output/
+dist-themes
