@@ -52,3 +52,4 @@ STATIC_PATHS = ['images', ]
 PLUGIN_PATHS = ['plugins', ]
 PLUGINS = ['feed_summary', ]
 FEED_USE_SUMMARY = True
+SUMMARY_MAX_LENGTH = 80
