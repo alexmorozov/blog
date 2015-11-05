@@ -18,7 +18,7 @@ of such decision. And I want to share them with you.
 
 Here's my top 6 list of problems:
 
-### Stock templates updates
+### Stock templates' updates
 
 The worst thing is often they pass through the testing sieve. Tests pass,
 layout is broken, users complain. Upcoming 1.9 version introduces new flat
