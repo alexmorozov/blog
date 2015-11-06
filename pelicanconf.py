@@ -42,6 +42,8 @@ LINKS = (
 
 DISQUS_SITENAME = 'alexmorozovgithubio'
 GOOGLE_ANALYTICS = 'UA-69605514-1'
+ADD_THIS_ID = 'ra-563ca099f23dfb64'
+
 
 DEFAULT_PAGINATION = 10
 
@@ -50,6 +52,6 @@ RELATIVE_URLS = True
 STATIC_PATHS = ['images', ]
 
 PLUGIN_PATHS = ['plugins', ]
-PLUGINS = ['feed_summary', ]
+PLUGINS = ['feed_summary', 'neighbors', ]
 FEED_USE_SUMMARY = True
 SUMMARY_MAX_LENGTH = 80
