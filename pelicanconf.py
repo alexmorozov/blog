@@ -52,6 +52,6 @@ RELATIVE_URLS = True
 STATIC_PATHS = ['images', ]
 
 PLUGIN_PATHS = ['plugins', ]
-PLUGINS = ['feed_summary', 'neighbors', ]
+PLUGINS = ['feed_summary', 'neighbors', 'summary', ]
 FEED_USE_SUMMARY = True
 SUMMARY_MAX_LENGTH = 80

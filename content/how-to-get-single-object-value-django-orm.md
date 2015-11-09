@@ -17,6 +17,8 @@ it's body. How do you do it in a usual way?
 
 Recently I've stumbled upon [a shorter one](https://code.djangoproject.com/ticket/25132#comment:3):
 
+<!-- PELICAN_END_SUMMARY -->
+
     :::python
     >>> BlogPost.objects.values_list('headline', flat=True).get(pk=1)
     'Hello world'

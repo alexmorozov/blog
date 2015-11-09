@@ -3,9 +3,14 @@ Date: 2015-11-10 10:20
 Category: Programming
 Tags: django, python, jabber, xmpp
 
+![Django and Jabber]({filename}/images/jabber-logo.png)
+
+<!-- PELICAN_BEGIN_SUMMARY -->
 Did you ever want to have a simple Django notification bot? An intranet one
 which just sends you (or someone you tell it to) Jabber messages when certain
 events occur? So did I. Please, welcome: **[django-jabber][1]**.
+
+<!-- PELICAN_END_SUMMARY -->
 
 Installation and configuration are dead simple:
 
