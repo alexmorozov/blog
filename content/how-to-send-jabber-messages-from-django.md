@@ -4,8 +4,9 @@ Category: Programming
 Tags: django, python, jabber, xmpp
 
 
-Ever wanted to have a simple Django notification bot? A one which just sends
-you Jabber messages when certain events occur? Please, welcome: [django-jabber][1].
+Did you ever want to have a simple Django notification bot? A one which just
+sends you Jabber messages when certain events occur? So did I. Please, welcome:
+[django-jabber][1].
 
 Installation and configuration are dead simple:
 
