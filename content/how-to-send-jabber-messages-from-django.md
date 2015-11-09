@@ -1,20 +1,20 @@
-Title: How to send Jabber(XMPP) messages from Django
+Title: How to send Jabber (XMPP) messages from Django
 Date: 2015-11-10 10:20
 Category: Programming
 Tags: django, python, jabber, xmpp
 
-
-Did you ever want to have a simple Django notification bot? A one which just
-sends you Jabber messages when certain events occur? So did I. Please, welcome:
-[django-jabber][1].
+Did you ever want to have a simple Django notification bot? An intranet one
+which just sends you (or someone you tell it to) Jabber messages when certain
+events occur? So did I. Please, welcome: **[django-jabber][1]**.
 
 Installation and configuration are dead simple:
 
     :::shell
     pip install django-jabber
 
+And then put this at your settings.py:
+
     :::python
-    # Put this at your settings.py
     INSTALLED_APPS = (
         ...
         'django_jabber',
@@ -31,17 +31,21 @@ Installation and configuration are dead simple:
 
 And we're done!
 
-Now let's say you want to inform some users about the 
+Now let's say you have an intranet forum. And you want to tell Bob and Alice
+that new topic is posted:
 
     :::python
     from django_jabber import send_message
 
     recipients = ['bob', 'alice', ]
-    send_message(u'Hello there', recipients)
+    topic = 'Hey there!'
+    send_message(u'New topic: %s' % topic, recipients)
 
-Notice we omit the `@domain` part in users names, since they are the same for all users within the domain.
+Notice we omit the `@domain` part in recipients' names. The package assumes you
+use it in-house, having one domain. It would be easy, though, to make it
+understand foreign domains (pull requests are welcome!).
 
-We use it in intranet solutions, so far so good.
+That's it! Let me know if you have any ideas on improving this package.
 
 
-[1]: (https://github.com/alexmorozov/django-jabber)
+[1]: https://github.com/alexmorozov/django-jabber
