@@ -1,5 +1,5 @@
 Title: How to send Jabber (XMPP) messages from Django
-Date: 2015-11-10 10:20
+Date: 2015-11-11 12:20
 Category: Programming
 Tags: django, python, jabber, xmpp
 
