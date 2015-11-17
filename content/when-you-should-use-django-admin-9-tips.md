@@ -4,21 +4,22 @@ Category: Programming
 Status: draft
 Tags: django, python, admin
 
-This post is inspired by a comment on Reddit concerning my [recent post][1].
+This post is inspired by a comment on Reddit concerning my [recent post][1]:
 
 > "The problem is that everyone I speak to seems to think the opposite - that
 > the admin is super-limited, inflexible and hard to customize."
 >
 > -- <cite>[andybak][2]</cite>
 
-I'm willing to deal with this prejudice right now. The Django admin is really
-brilliant piece of software, that can significantly speed up your development.
+I'm willing to beat this prejudice right now. The Django admin is a really
+brilliant piece of software, which can significantly speed up your development.
 
 Here are some tips about the Django admin, which I've found to be quite useful.
 But before we start, let's imagine we have a simple site where visitors post
 pictures of cute animals and leave comments on them.
 
     :::python
+    # models.py
     class Picture(models.Model):
         DOG = 1
         CAT = 2
@@ -27,8 +28,11 @@ pictures of cute animals and leave comments on them.
             (CAT, 'cat'),
         )
 
+        title = models.CharField(max_length=200)
+        author = models.ForeignKey(Author, related_name='comments')
         animal_kind = models.IntegerField(choices=ANIMAL_KIND_CHOICES)
         photo = models.ImageField(upload_to='animals')
+
 
     class Author(models.Model):
         name = models.CharField(max_length=100)
@@ -42,11 +46,29 @@ pictures of cute animals and leave comments on them.
         is_promoted = models.BooleanField(default=False)
         editors_note = models.TextField()
 
+    # admin.py
+    class PictureAdmin(admin.ModelAdmin):
+        list_display_fields = ('photo', 'animal_kind', )
+
+
+    class CommentAdmin(admin.ModelAdmin):
+        pass
+
 
 ### Override another module's admin
 
 ### Search on multiple fields and relations
-    omnibox
+
+The default admin search box is quite useful, but is somewhat limited. We want it
+to search in pictures' titles, authors' names and comments' texts. How to
+achieve that?
+
+    :::python
+    class PictureAdmin(admin.ModelAdmin):
+        search_fields = ('title', 'author__name', 'comments__text', )
+
+
+Apparently, there are too many users to list them as a filter at sidebar.
 
 custom list filters
     having more than 100 comments
