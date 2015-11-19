@@ -3,3 +3,4 @@
 /theme/
 /node_modules/
 /plugins/
+.DS_Store
