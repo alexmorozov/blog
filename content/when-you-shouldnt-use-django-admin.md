@@ -77,3 +77,7 @@ Consider to stick with Django admin if two conditions are met:
 
 * You expose the admin to the small group of experienced users (content managers)
 * Your models, relations and workflow are simple enough.
+
+*UPDATE*: I've written a post about [why you should use the Django admin][1], be sure to check it out.
+
+[1]: {filename}/why-you-should-use-django-admin-9-tips.md

@@ -3,6 +3,10 @@ Date: 2015-11-16 10:20
 Category: Programming
 Tags: vim, ag
 
+![Vim search and replace]({filename}/images/vim-logo.png)
+
+<!-- PELICAN_BEGIN_SUMMARY -->
+
 Recently I faced an interesting problem. I had to search for the [redundant
 lines of code][1] (about a hundred occurences), and replace **some** of them.
 The bad thing is that I _couldn't do that automatically_, as each case had to
