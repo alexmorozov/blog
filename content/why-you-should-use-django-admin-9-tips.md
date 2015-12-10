@@ -186,9 +186,8 @@ That's how to make it a bit easier:
 
         def object_link(self, item):
             url = item.get_absolute_url()
-            return u'<a href={url}>open</a>'.format(url=url)
+            return format_html(u'<a href="{url}">open</a>', url=url)
         object_link.short_description = 'View on site'
-        object_link.allow_tags = True
 
 This snippet adds a "View on site" link to each object in the list. Here we
 assume you've already implemented the `get_absolute_url()` method on your
@@ -290,7 +289,8 @@ an email to some authors, showing all her love.
         def mail_link(self, obj):
             dest = reverse('admin:myapp_pictures_mail_author',
                            kwargs={'pk': obj.pk})
-            return '<a href="{url}">{title}</a>'.format(url=dest, title='send mail')
+            return format_html('<a href="{url}">{title}</a>',
+                               url=dest, title='send mail')
         mail_link.short_description = 'Show some love'
         mail_link.allow_tags = True
 
