@@ -6,7 +6,7 @@ Hi, my name is Alex Morozov, and I'm from Russia.
 
 My passion is developing cool e-commerce websites and making the existing ones
 more profitable. You can find more information on my
-[LinkedIn page](https://linkedin.com/in/djangoengineer).
+[LinkedIn](https://linkedin.com/in/djangoengineer) and on [Stackoverflow](http://stackoverflow.com/cv/django-developer).
 
 I have graduated Moscow State Academy of Informatics and Instrument Engineering.
 Master of Science (honors degree) Informational systems in economics, 2004. My
