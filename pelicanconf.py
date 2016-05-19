@@ -31,9 +31,10 @@ TYPOGRIFY = True
 # Social widget
 SOCIAL = (
     ('linkedin', 'https://linkedin.com/in/djangoengineer'),
-    ('stackoverflow', 'http://stackoverflow.com/cv/django-developer'),
+    ('stack-overflow', 'http://stackoverflow.com/cv/django-developer'),
     ('twitter', 'https://twitter.com/alexmorozov'),
     ('github', 'https://github.com/alexmorozov'),
+    ('facebook', 'https://facebook.com/theveryalexmorozov'),
     ('rss', '%s/%s' % (SITEURL, FEED_ALL_ATOM)),
 )
 
