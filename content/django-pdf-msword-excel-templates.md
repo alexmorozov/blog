@@ -7,19 +7,19 @@ Slug: django-pdf-msword-excel-templates
 ![Django and PDF, MS Word, Excel templates]({filename}/images/document-formats.png)
 
 <!-- PELICAN_BEGIN_SUMMARY -->
-If you're building a Django system that implies serving users some kind of
-documents like reports or bills, chances are you want to provide docs in
-various formats, from PDF to MS Word to HTML. But how to implement this without
-resorting to numerous templates and packages for each document type?
+If you're building a Django system that implies serving some kind of documents
+like reports or bills, chances are you want to provide docs in various formats
+from PDF to MS Word to HTML. But how to implement this without resorting to
+numerous templates and packages for each document type?
 
 <!-- PELICAN_END_SUMMARY -->
 
-To this aim I wrote [templated_docs][1] - a Django package that
-allows to you generate documents in multiple formats from just one template.
+To tackle this issue I wrote [templated_docs][1] - a Django package that
+allows you to generate documents in multiple formats from just one template.
 And what's even better is that you can use a regular Django templating language
 inside those docs!
 
-Okay, rant aside, let's get our hands dirty.
+In this post I'll give you a gist of what you can do with this module.
 
 ## Installation
 
@@ -28,9 +28,9 @@ Okay, rant aside, let's get our hands dirty.
 *Templated-docs* uses LibreOffice for conversion under the hood, so make sure
 you have a recent version installed (5.x versions will do fine). There is no
 need of having LibreOffice running all the time, in fact, you don't even need a
-graphical subsystem installed on your server. We'll use the suite as a library
-via the LibreOfficeKit API. Note the path Libreoffice has been installed to,
-we might need it later.
+graphical subsystem to be installed on your server. We'll use the suite as a
+library via the LibreOfficeKit API. Note the path Libreoffice has been
+installed to, we might need it later.
 
 ### 2. Install `templated-docs`
 
