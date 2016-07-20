@@ -41,6 +41,12 @@ path to LibreOffice's **`program`** directory in your settings:
     :::python
     TEMPLATED_DOCS_LIBREOFFICE_PATH = '/usr/share/libreoffice/program'
 
+If you are using cpython you may need the `libffi` development package in order to compile CFFI.
+
+* Ubuntu: `apt-get install libffi-dev`
+* MacOS: `brew install libffi`
+
+
 ### 3. There is no step 3, we're all set!
 
 ## Usage example
