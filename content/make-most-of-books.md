@@ -101,7 +101,7 @@ mixing new quotes with those you could have forgotten. This point is essential
 because focusing on favorite ideas at the expense of others would radically
 decrease the efficiency of the strategy.
 
-**Finally**, do my reviews at the right time and on the right device. It's not very
+**Finally**, do reviews at the right time and on the right device. It's not very
 productive to use personal growth quotes for bedtime reading because you
 simply won't have time to comprehend them fully and try to put them into
 action. It's like books' authors turning into personal development coaches and
