@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Alex Morozov'
-SITENAME = u'CTO with a CEO flavour'
-SITEURL = 'https://alexmorozov.github.io'
+SITENAME = u'CTO with a CEO flavor'
+SITEURL = 'https://morozov.ca'
 SITELOGO = '/images/alex-morozov.jpg'
 
 SITETITLE = SITENAME
