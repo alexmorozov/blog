@@ -1,4 +1,4 @@
-Title: How to create expert content: a step-by-step guide for big results
+Title: How to Create Expert Content: A Step-by-step Guide for Big Results
 Date: 2017-10-25 12:20
 Category: Marketing
 Tags: marketing, content, strategy
@@ -26,10 +26,10 @@ existing employees and doesn't frustrate them.
 <!-- PELICAN_END_SUMMARY -->
 
 As with every good object, a strategy needs three footholds to be stable. For
-expert content, these three pillars are:
+expert content we create in our company, these three pillars are:
 
 * Demand-based content
-* Separation of responsibilities
+* Separation of responsibilities within a creation process
 * Inherent multi-channel fit
 
 In this guide, I'll show you, step by step, how to align your content to
@@ -38,10 +38,10 @@ multi-channel fit.
 
 ## First pillar: Demand-based content
 
-Too often we focus on what we have to offer, ignoring what our customers
-actually need. It makes no sense creating a list of content topics based on
-your assortment without a proper keyword research in Google. Also, being
-demand-oriented is a life-saver when you're short of content ideas.
+This one is simple yet overlooked by many. First, research the subject area,
+come up with a list of topics, and only then hand them over to your experts.
+A common mistake here is to ask your experts to think up topics for articles.
+That leads to aligning to what we have to offer but not customer demand.
 
 Another common problem is *prioritizing between different topics*. Keyword
 research will provide you with demand volume. Use it to base your strategy on
@@ -99,12 +99,12 @@ line, or by employing a clustering tool.
 Simply put, keyword clustering allows you to group phrases by meaning. Such
 tool can reduce the amount of manual work drastically.
 
-For example, let's say we have around 30 keywords about Dominicana hotels among
-our "Mexican" corpus. We either would have to manually find and delete them or
-just pass the list through a clustering tool. It would make a separate group of
-those words, so we would be able to easily get rid of them.
+For example, let's say we have around 30 keywords about Dominicana hotels
+scattered across our "Mexican" corpus. We either would have to manually find
+and delete them or just pass the list through a clustering tool. It would make
+a separate group with those words, so we would be able to easily get rid of them.
 
-There are several free and paid tools in the market. In my view, a good tool
+There are several free and paid tools in the market. In my view, a good instrument
 should have the following features:
 
 * Have lemmatization or stemming. It should know that 'hotel' and 'hotels' are the same words.
@@ -115,14 +115,14 @@ should have the following features:
 
 As I didn't find the right tool for me, I put together a [simple Python script][2].
 It's available online so you can play with it by pasting your keywords. We use
-it on a daily basis, and so far it proved to be a handy tool.
+it on a daily basis, and so far it proved handy.
 
 Back to our story. Here's an example of how the clustered groups may look like for our subject matter:
 
 ![Clustered Keyword Planner keywords]({filename}/images/expert-content-strategy/expert-content-clustered-initial-groups.png)
 
 Now that you have a list of groups, remove the irrelevant ones mercilessly.
-I've highlighted an example of an irrelevant group in red. Overcome the
+I've highlighted an example of an irrelevant cluster in red. Overcome the
 temptation to leave them "just in case". The more targeted semantic core you'll
 have, the better content you'll be able to produce. At this stage, you should
 end up with 50 to 400 keywords.
@@ -143,7 +143,7 @@ logging in. We're planning on open sourcing this component shortly.
 Whichever tool you prefer, feed your keywords into it to collect related
 phrases. At this stage, you should have 500 to 2000 keywords.
 
-Most likely, you'll have a lot of duplicates on your list. Before feeding them
+Most likely, you'll have a lot of duplicates on your list. Before passing them
 down the pipeline, remove duplicates. We use a free online tool on
 [online-utility.org][4]. Paste your text there and check the "Remove
 Duplicates" box.
@@ -156,15 +156,15 @@ Run through them one more time and combine the groups you believe are very
 similar in meaning.
 
 So how do we now distribute the resulting groups into separate pieces of
-content? Consider one of the following strategies:
+content for the most effect? Consider one of the following strategies:
 
-* Group by desired content length
+##### Group by desired content length
 
 If you already have established copywriting guidelines, try and estimate what
 length would it require to cover each group in detail. Then add up groups until
 your reach your article length limit. Repeat.
 
-* Group by competition level
+##### Group by competition level
 
 Check the total keyword frequency and level of competition using Google Keywords Planner.
 To do that, paste each group's term into [Google Keyword Planner][1] and take a
@@ -181,7 +181,7 @@ We prefer this method, mostly because we're organic traffic oriented. As Rand
 Fishkin [wrote back in 2010][5] (not much has changed since then), you definitely
 don't want to lump competitive keywords together on one page.
 
-* Group by personas/intent/funnel position
+##### Group by personas/intent/position in sales funnel
 
 Usually, keywords group are very different in terms of a customer intent. Some
 represent a ready-to-buy client, whereas the others are simply initial research.
