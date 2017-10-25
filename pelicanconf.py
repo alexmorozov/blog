@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Alex Morozov'
-SITENAME = u'CTO with a CEO flavor'
+SITENAME = u'CTO with a CMO flavor'
 SITEURL = 'https://morozov.ca'
 SITELOGO = '/images/alex-morozov.jpg'
 
@@ -26,6 +26,8 @@ AUTHOR_FEED_RSS = None
 
 THEME = 'theme'
 TYPOGRIFY = True
+
+MD_EXTENSIONS = ['toc', ]
 
 
 # Social widget
