@@ -27,7 +27,12 @@ AUTHOR_FEED_RSS = None
 THEME = 'theme'
 TYPOGRIFY = True
 
-MD_EXTENSIONS = ['toc', ]
+MARKDOWN = {
+    'extensions': ['toc', 'codehilite', ],
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+    },
+}
 
 
 # Social widget

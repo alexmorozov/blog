@@ -103,4 +103,4 @@ def gh_pages():
     """Publish to GitHub Pages"""
     rebuild()
     local("ghp-import -b {github_pages_branch} {deploy_path}".format(**env))
-    local("git push pages {github_pages_branch}:master".format(**env))
+    local("git push --force pages {github_pages_branch}:master".format(**env))
